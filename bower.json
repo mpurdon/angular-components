@@ -1,0 +1,32 @@
+{
+  "name": "maw-angular-components",
+  "version": "0.0.1",
+  "authors": [
+    "Matthew Purdon <matthew@ashgrove.ca>"
+  ],
+  "description": "Angular components for use in the MAW Charters project.",
+  "main": [
+    "./dist/maw-angular-components.js",
+    "./dist/_maw-angular-components.scss"
+  ],
+  "private": true,
+  "ignore": [
+    "Gruntfile.js",
+    "package.json",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "index.html",
+    "main.scss"
+  ],
+  "dependencies": {
+    "angular-cookies": "~1.3.5"
+  },
+  "devDependencies": {
+    "angular": "1.3.x",
+    "angular-mocks": "1.3.x",
+    "angular-bootstrap": "0.11.x",
+    "bootstrap-sass-official": "3.3.x"
+  }
+}
